@@ -64,8 +64,8 @@ A React-based Weather Dashboard with user authentication and profile management.
 
    ```env
    PORT=4000
-   JWT_SECRET=b1852feefd067adb7552ca6f7438bf987bba88efed4e0826b367364d0d040580
-   API_KEY=a12505f652944b0b275869990cc612c0
+   JWT_SECRET=your secret
+   API_KEY=your key
    MONGODB_URI=mongodb://localhost:27017/weatherapp
    ```
 
