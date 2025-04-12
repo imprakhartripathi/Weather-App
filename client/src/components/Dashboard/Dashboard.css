@@ -1,0 +1,134 @@
+.weather-dashboard {
+  padding: 2rem;
+  background-color: #f0f4f8;
+  height: 91vh;
+  width: 95.5vw;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #2e3b4e;
+}
+
+.evaluator-message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+
+.profile-button-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-button:hover {
+  background-color: #45a049;
+}
+
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 1rem;
+  width: 250px;
+}
+
+.search-button {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #3c8dbc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #1c5d91;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.error-container {
+  text-align: center;
+  color: red;
+}
+
+.error-message {
+  font-size: 1.2rem;
+}
+
+.error-response {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.weather-info {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.weather-location {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.raw-response-title {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.raw-response {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-x: auto;
+  margin-top: 1rem;
+}

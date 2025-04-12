@@ -1,0 +1,59 @@
+.home-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+  min-height: 100vh;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-header p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.go-dashboard-btn {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.go-dashboard-btn:hover {
+  background-color: #005f8a;
+}
+
+.about-section,
+.tech-stack,
+.how-it-works {
+  margin-bottom: 2rem;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2,
+.tech-stack h2,
+.how-it-works h2 {
+  color: #006064;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
