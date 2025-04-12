@@ -60,13 +60,13 @@ A React-based Weather Dashboard with user authentication and profile management.
 
 4. **Environment Variables**:
 
-   - Set up the environment variables. Create a `.env` file in the `backend` directory and add your MongoDB URI and any other necessary configuration.
+   - Set up the environment variables. Create a `.env` file in the `backend` directory and add the following:
 
-   Example `.env`:
-
-   ```
-   MONGO_URI=mongodb://localhost:27017/weather-dashboard
-   JWT_SECRET=your-jwt-secret
+   ```env
+   PORT=4000
+   JWT_SECRET=b1852feefd067adb7552ca6f7438bf987bba88efed4e0826b367364d0d040580
+   API_KEY=a12505f652944b0b275869990cc612c0
+   MONGODB_URI=mongodb://localhost:27017/weatherapp
    ```
 
 5. **Start the Application**:
@@ -122,7 +122,3 @@ The project uses JWT (JSON Web Token) for authentication. After a successful log
 3. Commit your changes (`git commit -am 'Add new feature'`).
 4. Push to your branch (`git push origin feature-name`).
 5. Create a new pull request.
-
-## License
-
-This project is licensed under the MIT License.
