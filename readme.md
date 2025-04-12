@@ -1,7 +1,3 @@
-Sure! Here's a well-structured README for your project:
-
----
-
 # Weather Dashboard with User Profile Management
 
 A React-based Weather Dashboard with user authentication and profile management. This project allows users to fetch weather data for various locations, manage their profile details, and store their saved locations.
